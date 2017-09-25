@@ -1,0 +1,39 @@
+<p><%= notice %></p>
+
+    <p><%= link_to "pictureを投稿する", new_picture_path %></p>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <% @pictures.each do |picture| %>
+                <div class="dashboard">
+                    <div class="name-header">
+                        <div class="profile-icon">
+                            <%= profile_img(picture.user) %>
+                        </div>
+                        <div class="profile-name">
+                            <%= picture.user.name %>
+                        </div>
+                    </div>
+
+
+                <div class="images">
+                  <td><%= image_tag picture.image.to_s %></td>
+                </div>
+
+
+
+                <div class="picture-text">
+                <p><strong><%= picture.user.name %></strong>   <%= picture.text %></p>
+                </div>
+
+
+                          <div class="clear-box">
+                          <%= link_to "編集", edit_picture_path(picture.id), class: 'btn btn-default btn-sm btn-success' %>
+                          <%= link_to "削除", picture_path(picture.id), method: :delete, data: { confirm: '本当に削除していいですか？'}, class: 'btn btn-default btn-sm btn btn-danger' %>
+                          </div>
+                </div>
+    <% end %>
+        </div>
+    </div>
+</div>

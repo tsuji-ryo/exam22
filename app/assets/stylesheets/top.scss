@@ -1,6 +1,6 @@
 header {
   width: 100%;
-  background-color: #4267b2;
+  background-color: #ffffff;
 }
 
 header ul {
@@ -12,7 +12,7 @@ header ul a {
   display: block;
   padding: 15px;
   text-decoration: none;
-  color: white;
+  color: #646464;
 }
 
 header li {
@@ -59,7 +59,7 @@ header ul:after {
 footer {
   min-width: 100%;
   width: 100%;
-  background-color:#4267b2;
+  background-color:#ffffff;
   padding: 20px 0 10px 0;
   color: white;
   margin: auto;
@@ -117,5 +117,7 @@ body {
 span:hover + p.arrow_box {
   display: block;
 }
-
+.footer-font {
+  color:#003569;
+}
 

@@ -30,6 +30,18 @@
 
           <li>
             <div>
+               <span>
+                <%= link_to pictures_path, :method => :get do %>
+                <i class="fa fa-facebook-square fa-2x"></i>
+                <% end %>
+                </i>
+                </span>
+                <p class="arrow_box">Pictures</p>
+             </div>
+           </li>
+
+          <li>
+            <div>
               <span>
               <%= link_to topics_path, :method => :get do %>
               <i class="fa fa-rss-square fa-2x" aria-hidden="true"></i>
@@ -131,8 +143,10 @@
     <%= yield %>
 
    <footer>
+   <div class="footer-font">
     <p>運営会社DIVE INTO CODE株式会社</p>
     <p>© 2015-2016 Copyright DIVE INTO CODE Corp.</p>
+    </div>
   </footer>
 
 

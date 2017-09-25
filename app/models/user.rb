@@ -1,6 +1,6 @@
 class User < ActiveRecord::Base
 
-
+  has_many :pictures
   has_many :topics
   has_many :comments, dependent: :destroy
   has_many :relationships, foreign_key: "follower_id", dependent: :destroy

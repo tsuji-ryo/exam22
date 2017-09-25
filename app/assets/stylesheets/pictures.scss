@@ -1,0 +1,61 @@
+.images {
+width: 100%;
+height: 100%;
+text-align: center;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.name-header {
+width: 600px;
+height: 60px;
+background-color: white;
+ display: block;
+ margin-right: auto;
+}
+.profile-icon {
+  float: left;
+  margin-left:15px;
+  margin-top:15px;
+  width:30px;
+  height: 30px;
+  border-radius: 30px;
+  overflow:hidden;
+
+
+}
+
+
+.profile-name {
+    float: left;
+    padding:15px;
+    margin-top:5px;
+
+}
+
+.clear-box {
+ width: 600px;
+ height: 60px;
+ background-color: white;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.picture-text {
+  width: 600px;
+  height: 60px;
+  background-color: white;
+  display: block;
+  margin-right: auto;
+  padding: 20px;
+  text-align: left;
+
+}
+
+.dashboard {
+ margin-bottom: 70px;
+
+  background-color: white;
+}

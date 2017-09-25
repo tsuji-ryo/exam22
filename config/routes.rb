@@ -32,7 +32,7 @@ end
     post :confirm, on: :collection
   end
 
-
+  resources :pictures
 
 
   root 'top#index'
