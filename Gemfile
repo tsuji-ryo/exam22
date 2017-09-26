@@ -68,6 +68,6 @@ gem 'omniauth-twitter'
 gem 'omniauth-facebook'
 gem 'carrierwave'
 gem 'mini_magick'
-
-
+gem 'rails_admin'
+gem 'cancan'
 
