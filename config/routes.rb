@@ -36,5 +36,5 @@ end
   resources :pictures
 
 
-  root 'top#index'
+  root 'pictures#index'
 end

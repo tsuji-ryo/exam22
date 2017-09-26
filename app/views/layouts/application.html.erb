@@ -15,17 +15,6 @@
       <div id="menu">
 
 
-          <li>
-            <div>
-               <span>
-                <%= link_to root_path, :method => :get do %>
-                <i class="fa fa-facebook-square fa-2x"></i>
-                <% end %>
-                </i>
-                </span>
-                <p class="arrow_box">HOME</p>
-             </div>
-           </li>
 
 
           <li>
@@ -40,40 +29,10 @@
              </div>
            </li>
 
-          <li>
-            <div>
-              <span>
-              <%= link_to topics_path, :method => :get do %>
-              <i class="fa fa-rss-square fa-2x" aria-hidden="true"></i>
-              <% end %>
-              </span>
-              <p class="arrow_box">Topic 一覧</p>
-            </div>
-          </li>
-
-          <li>
-            <div>
-              <span>
-               <%= link_to conversations_path, :method => :get do %>
-                <i class="fa fa-comments fa-2x" aria-hidden="true"></i>
-                <% end %>
-              </span>
-              <p class="arrow_box">メッセージ</p>
-            </div>
-          </li>
 
       <% if user_signed_in? %>
 
-          <li>
-            <div>
-              <span>
-                <%= link_to users_path, :method => :get do %>
-                <i class="fa fa-users fa-2x" aria-hidden="true"></i>
-                <% end %>
-              </span>
-              <p class="arrow_box">他のユーザー</p>
-            </div>
-          </li>
+
 
           <li>
             <div>
