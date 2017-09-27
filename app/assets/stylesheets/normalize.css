@@ -449,3 +449,14 @@ template {
 img{
   max-width: 100%;
 }
+
+.form-group {
+  text-align:left;
+
+}
+.actions {
+  margin-bottom: 50px;
+}
+.bottom-back {
+  margin:20px;
+}
